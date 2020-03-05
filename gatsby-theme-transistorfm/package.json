@@ -1,6 +1,6 @@
 {
   "name": "gatsby-theme-transistorfm",
-  "version": "0.1.3",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "description": "Gatsby theme for transistor.fm",
