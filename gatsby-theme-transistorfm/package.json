@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-theme-transistorfm",
+  "version": "0.1.3",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Gatsby theme for transistor.fm",
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "transistorfm"
+  ],
+  "dependencies": {
+    "gatsby-image": "2.2.42",
+    "gatsby-plugin-sharp": "2.4.5",
+    "gatsby-source-transistorfm": "0.1.3",
+    "gatsby-transformer-sharp": "2.3.16",
+    "react-audio-player": "0.11.1"
+  },
+  "peerDependencies": {
+    "gatsby": "2.19.28",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  },
+  "devDependencies": {
+    "gatsby": "2.19.28",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  }
+}
