@@ -1,14 +1,25 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import ReactAudioPlayer from 'react-audio-player';
+
+import {
+  usePlayerState,
+  usePlayerDispatch,
+  SET_EPISODE,
+} from '../context/player';
 
 export default function IndexPageTemplate({ data: { episode } }) {
+  const { episode: playingEpisode } = usePlayerState();
+  const dispatch = usePlayerDispatch();
+  const isPlaying = playingEpisode && playingEpisode.id === episode.id;
+
+  const play = () => dispatch({ type: SET_EPISODE, payload: episode });
+
   return (
     <React.Fragment>
       <h1>{episode.title}</h1>
       <p>{episode.content}</p>
 
-      <ReactAudioPlayer src={episode.enclosure.url} controls preload="none" />
+      {isPlaying ? 'Playing' : <button onClick={play}>Play</button>}
     </React.Fragment>
   );
 }
