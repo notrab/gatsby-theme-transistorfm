@@ -47,7 +47,7 @@ export const pageQuery = graphql`
       }
     }
 
-    episodes: allTransistorEpisode {
+    episodes: allTransistorEpisode(sort: { fields: isoDate, order: DESC }) {
       nodes {
         id
         title
