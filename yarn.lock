@@ -9399,12 +9399,10 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-audio-player@0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/react-audio-player/-/react-audio-player-0.11.1.tgz#b91d0a612ca2c56cf037e34e9b3626be5326a373"
-  integrity sha512-B8j1qqi7B3IhwRNftcU7DAPMnomVrGXKtPQnXNaJxwBrYA47S/Z6CZqB8Vh/ojdnbH1bAGA2SADqa/oswyoInQ==
-  dependencies:
-    prop-types "^15.7.2"
+react-browser-hooks@2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/react-browser-hooks/-/react-browser-hooks-2.2.4.tgz#2bcd7b4d803ac78f5160c8b3d610662bee4a5d61"
+  integrity sha512-Vj4z0BdSPqq89DIfiRcXqEGVueW9tDVN/0zXHD7ICqKmQ7nmr+EiH7ExKTmIS2oJDsUqWVB5H2HKBy5pZpI/sg==
 
 react-dev-utils@^4.2.3:
   version "4.2.3"
