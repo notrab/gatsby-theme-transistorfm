@@ -10,8 +10,8 @@
   "dependencies": {
     "gatsby": "2.20.2",
     "gatsby-theme-transistorfm": "*",
-    "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "dotenv": "8.2.0"
