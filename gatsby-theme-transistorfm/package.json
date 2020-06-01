@@ -17,12 +17,12 @@
     "react-audio-player": "0.13.0"
   },
   "peerDependencies": {
-    "gatsby": "2.22.9",
+    "gatsby": "2.22.15",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "gatsby": "2.22.9",
+    "gatsby": "2.22.15",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }
