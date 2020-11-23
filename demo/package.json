@@ -8,7 +8,7 @@
     "dev": "gatsby develop"
   },
   "dependencies": {
-    "gatsby": "2.26.1",
+    "gatsby": "2.27.0",
     "gatsby-theme-transistorfm": "*",
     "react": "16.14.0",
     "react-dom": "16.14.0"
