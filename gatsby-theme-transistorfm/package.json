@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "gatsby-image": "2.11.0",
-    "gatsby-plugin-sharp": "2.14.4",
+    "gatsby-plugin-sharp": "4.25.1",
     "gatsby-source-transistorfm": "0.1.4",
     "gatsby-transformer-sharp": "2.12.1",
     "react-audio-player": "0.17.0"
